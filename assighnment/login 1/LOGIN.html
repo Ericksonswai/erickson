@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {background: white;}
+        h1 {text-align: center;}
+        form{
+            border-radius: 15px solid black;
+            margin-top: 0;
+            background-color: whitesmoke;(255, 255, 255);
+            width:30rem;
+            margin-left:33%;
+            padding:2em;
+        }
+        #Email,#Password {
+            width:100%;
+            padding: .7em .5em;
+            border-radius: 12px;
+            border-color: transparent;
+        }
+        .btw {width:100%;
+        border-radius: 20px;
+        border-color: transparent;
+        padding: .7em 2em;
+        background-color:rgb(30, 198, 140);
+    }
+    .btw:hover {
+        cursor: pointer;
+        background-color:rgba(30, 198, 139, 0.499);
+    }
+    </style>
+</head>
+<body>
+    <h1>login</h1>
+    <form>
+        <label for="Email">Email</label><br>
+        <input type="Email" id="Email" placeholder="example@gmail.com">
+        <br><br>
+        <label for="Password">Password</label><br>
+        <input type="Password" id="Password"><br><br>
+        <input type="submit" value="login" class="btw">
+    </form>
+</body>
+</html>
